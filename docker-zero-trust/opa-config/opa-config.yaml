@@ -1,0 +1,11 @@
+services:
+  authz:
+    url: http://localhost
+
+bundles:
+  authz:
+    service: authz
+    resource: bundle.tar.gz
+
+decision_logs:
+  console: true
